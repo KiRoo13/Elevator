@@ -1,3 +1,3 @@
-const FLORS:number[] = [1,2,3,4,5]
+const FLOORS:number[] = [1,2,3,4,5]
 
-export { FLORS }
+export { FLOORS }

@@ -1,4 +1,6 @@
 export interface ElevatorInfo {
-   currentFlor: number,
+   currentFloor: number,
    direction: 'UP' | 'DOWN' | '',
+   workDoors: boolean,
+   position: number
 }

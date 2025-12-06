@@ -1,12 +1,14 @@
 import type { FC } from "react"
+import './BtnCall.css'
 
 interface BtnCallProps {
-   handleCall: () => void
+   handleCall: () => void,
+   floorNumder: number
 }
 
 
-const BtnCall:FC<BtnCallProps> = ({handleCall}) => {
-   return <button onClick={handleCall}>CALL</button>
+const BtnCall:FC<BtnCallProps> = ({handleCall, floorNumder}) => {
+   return <button className="btn-call" onClick={handleCall}>CALL {floorNumder}</button>
 }
 
 export default BtnCall
